@@ -37,7 +37,7 @@ export default function Header() {
             </li>
           </ul>
         </div>
-        <div className="h-28 w-40 relative md:hidden mx-16 mt-1 navbar-center">
+        <div className="h-28 w-40 relative md:hidden ml-4  mt-1 navbar-center">
           <Image src={Arrobalhera.src} fill priority alt="logo"></Image>
         </div>
         <div className="h-28 w-60 relative hidden lg:flex">
@@ -45,20 +45,20 @@ export default function Header() {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="menu menu-horizontal px-1 text-xl">
+        <ul className="menu menu-horizontal px-1 text-xl transition-all">
           <li>
-            <a>Equipe</a>
+            <a className="hover:text-accent">Equipe</a>
           </li>
           <li>
-            <a>Gincana</a>
+            <a className="hover:text-accent">Gincana</a>
           </li>
           <li>
-            <a>Produtos</a>
+            <a className="hover:text-accent">Produtos</a>
           </li>
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn-accent btn">Seja Sócio</a>
+        <a className="btn-accent btn">Seja Sócio!</a>
       </div>
     </div>
   );
