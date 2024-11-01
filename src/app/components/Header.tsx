@@ -40,7 +40,7 @@ export default function Header() {
         <div className="h-28 w-40 relative md:hidden ml-4  mt-1 navbar-center">
           <Image src={Arrobalhera.src} fill priority alt="logo"></Image>
         </div>
-        <div className="h-28 w-60 relative hidden lg:flex">
+        <div className="h-28 w-60 relative hidden lg:flex mt-1 ml-1">
           <Image src={Arrobalhera.src} fill priority alt="logo"></Image>
         </div>
       </div>
@@ -58,7 +58,7 @@ export default function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn-accent btn">Seja Sócio!</a>
+        <a className="btn-accent btn md:mr-1">Seja Sócio!</a>
       </div>
     </div>
   );
