@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
+import Equipe from "./components/Equipe";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
           apoia outras equipes ao redor do estado!
         </p>
       </section>
+      <Equipe />
     </div>
   );
 }
