@@ -2,6 +2,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Equipe from "./components/Equipe";
 import Divisor from "./components/Divisor";
+import Gincana from "./components/Gincana";
 
 export default function Home() {
   return (
@@ -18,6 +19,11 @@ export default function Home() {
         titulo="Todos já sabem que a Arrobalhera é a primeira barra!"
         frase="Desde o nosso início revolucionamos a forma de torcer nas gincanas do
           estado, nos tornando a primeira barra gincaneira!"
+      />
+      <Gincana />
+      <Divisor
+        titulo="O sentimento nunca vai mudar!"
+        frase="A equipe esteve em hiato de 2018 a 2023, mas o amor pela camisa fez com que os integrantes retomassem suas atividades!"
       />
     </div>
   );
