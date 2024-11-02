@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 import Equipe from "./components/Equipe";
 import Divisor from "./components/Divisor";
 import Gincana from "./components/Gincana";
+import Produtos from "./components/Produtos";
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
         titulo="O sentimento nunca vai mudar!"
         frase="A equipe esteve em hiato de 2018 a 2023, mas o amor pela camisa fez com que os integrantes retomassem suas atividades!"
       />
+      <Produtos />
     </div>
   );
 }
