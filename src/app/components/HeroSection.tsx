@@ -5,7 +5,7 @@ export default function HeroSection() {
   return (
     <div className="hero place-items-start justify-center mt-16 text-white min-h-screen bg-inherit">
       <div className="hero-content flex-col lg:flex-row-reverse">
-        <div className="relative min-w-[460px] min-h-96">
+        <div className="relative min-w-[480px] min-h-96">
           <Image
             src={carteira_socio}
             alt="carteira de socio"
