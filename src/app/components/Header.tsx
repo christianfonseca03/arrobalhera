@@ -1,5 +1,6 @@
 import Arrobalhera from "../../../public/arrobalhera.png";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Header() {
   return (
@@ -64,7 +65,13 @@ export default function Header() {
         </ul>
       </div>
       <div className="navbar-end">
-        <a className="btn-accent btn md:mr-1">Seja Sócio!</a>
+        <Link
+          className="btn-accent btn md:mr-1"
+          href="https://api.whatsapp.com/send?phone=5551993477433"
+          target="_blank"
+        >
+          Seja Sócio!
+        </Link>
       </div>
     </div>
   );

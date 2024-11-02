@@ -1,5 +1,6 @@
 import Image from "next/image";
 import carteira_socio from "../../../public/carteira_socio.png";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -22,7 +23,14 @@ export default function HeroSection() {
             produtos, inscrição na Gincataí isenta e direito a votação nos
             materiais da equipe a serem lançados!
           </p>
-          <button className="btn btn-accent text-lg">Seja Sócio!</button>
+          <button className="btn btn-accent text-lg">
+            <Link
+              href="https://api.whatsapp.com/send?phone=5551993477433"
+              target="_blank"
+            >
+              Seja Sócio!
+            </Link>
+          </button>
         </div>
       </div>
     </div>
