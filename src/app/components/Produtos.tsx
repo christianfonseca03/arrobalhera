@@ -4,7 +4,7 @@ import camisa_passeio from "../../../public/camisa_passeio.jpeg";
 
 export default function Produtos() {
   return (
-    <div className="hero place-content-start justify-center bg-inherit min-h-screen pt-24">
+    <div className="hero place-content-start justify-center bg-inherit min-h-screen pt-24 pb-36">
       <div>
         <h1 className="text-5xl font-bold text-accent text-center pb-12">
           Produtos
@@ -16,7 +16,7 @@ export default function Produtos() {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-accent">Boné @Lhera</h2>
-              <p className="text-white">R$38,00</p>
+              <p className="text-white">R$ 38,00</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-accent">
                   Confira disponibilidade!
@@ -30,7 +30,7 @@ export default function Produtos() {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-accent">Camisa de passeio</h2>
-              <p className="text-white">R$45,00</p>
+              <p className="text-white">R$ 45,00</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-accent">
                   Confira disponibilidade!
@@ -44,7 +44,7 @@ export default function Produtos() {
             </figure>
             <div className="card-body">
               <h2 className="card-title text-accent">Camisa Gincataí 2024</h2>
-              <p className="text-white">R$25,00</p>
+              <p className="text-white">R$ 25,00</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-accent">
                   Confira disponibilidade!

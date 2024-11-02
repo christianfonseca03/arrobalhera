@@ -4,6 +4,7 @@ import Equipe from "./components/Equipe";
 import Divisor from "./components/Divisor";
 import Gincana from "./components/Gincana";
 import Produtos from "./components/Produtos";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
         frase="A equipe esteve em hiato de 2018 a 2023, mas o amor pela camisa fez com que os integrantes retomassem suas atividades!"
       />
       <Produtos />
+      <Footer />
     </div>
   );
 }
