@@ -11,7 +11,7 @@ export default function Equipe() {
       <div className="hero-overlay bg-[#101211] bg-opacity-60"></div>
       <div className="hero-content text-neutral-content text-center">
         <div className="max-w-md bg-black bg-opacity-5">
-          <h1 className="mb-5 text-5xl font-bold text-accent">
+          <h1 className="mb-5 text-5xl font-bold text-accent" id="Equipe">
             A nossa Equipe
           </h1>
           <p className="mb-5 text-white text-lg">

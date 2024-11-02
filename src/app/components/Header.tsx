@@ -27,13 +27,13 @@ export default function Header() {
             className="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-52 p-2 shadow bg-[#101211]"
           >
             <li>
-              <a>Equipe</a>
+              <a href="#Equipe">Equipe</a>
             </li>
             <li>
-              <a>Gincana</a>
+              <a href="#Gincana">Gincana</a>
             </li>
             <li>
-              <a>Produtos</a>
+              <a href="#Produtos">Produtos</a>
             </li>
           </ul>
         </div>
@@ -47,13 +47,19 @@ export default function Header() {
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1 text-xl transition-all">
           <li>
-            <a className="hover:text-accent">Equipe</a>
+            <a className="hover:text-accent" href="#Equipe">
+              Equipe
+            </a>
           </li>
           <li>
-            <a className="hover:text-accent">Gincana</a>
+            <a className="hover:text-accent" href="#Gincana">
+              Gincana
+            </a>
           </li>
           <li>
-            <a className="hover:text-accent">Produtos</a>
+            <a className="hover:text-accent" href="#Produtos">
+              Produtos
+            </a>
           </li>
         </ul>
       </div>

@@ -6,7 +6,7 @@ export default function Produtos() {
   return (
     <div className="hero place-content-start justify-center bg-inherit min-h-screen pt-24 pb-36">
       <div>
-        <h1 className="text-5xl font-bold text-accent text-center pb-12">
+        <h1 className="text-5xl font-bold text-accent text-center pb-12" id="Produtos">
           Produtos
         </h1>
         <div className="flex gap-12 flex-col md:flex-row">

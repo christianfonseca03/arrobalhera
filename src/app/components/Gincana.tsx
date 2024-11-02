@@ -3,7 +3,7 @@ export default function Gincana() {
     <div className="hero bg-inherit min-h-screen">
       <div className="hero-content text-center">
         <div className="max-w-md">
-          <h1 className="text-5xl font-bold text-accent">Gincana</h1>
+          <h1 className="text-5xl font-bold text-accent" id="Gincana">Gincana</h1>
           <p className="py-6 text-white text-lg">
             A tradicional Gincana de Gravataí, conhecida como Gincataí, ocorre
             anualmente e movimenta a cidade com atividades que engajam tanto
